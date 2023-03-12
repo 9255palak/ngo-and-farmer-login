@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	
+	<link rel="stylesheet" type="text/css" href="../Styles/buyer_reg.css">
+	<script src="https://kit.fontawesome.com/c587fc1763.js" crossorigin="anonymous"></script>
+	<title>Buyer Registration</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../portal_files/bootstrap.min.css">
+	
+</head>
+
+<body>
+
+	<main class="my-form">
+		<div class="cotainer">
+			<div class="row justify-content-center">
+				<div class="col-md-8">
+					<div class="card">
+					<div class="card-header" style="background-color:#292b2c"><h4 style="font-style:bold;color:goldenrod">Register</h4></div>
+						<div class="card-body border border-dark">
+							<form name="my-form" action="BuyerRegistration.html" method="post">
+								<div class="form-group row">
+									<label for="full_name" class="col-md-4 col-form-label text-md-right"><i class="fas fa-user mr-2"></i><b>Full Name</b></label>
+									<div class="col-md-6">
+										<input type="text" id="full_name" class="form-control border border-dark" name="name" placeholder="Enter Your Name" required>
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label for="phone_number" class="col-md-4 col-form-label text-md-right "><i class="fas fa-phone-alt mr-2"></i><b>Phone Number</b></label>
+									<div class="col-md-6">
+										<input type="text" id="phone_number" class="form-control w-100 border border-dark" style="width:100% ! important;" name="phonenumber" placeholder="Phone Number" required>
+									</div>
+								</div>
+								
+								<div class="form-group row">
+									<label for="email_address" class="col-md-4 col-form-label text-md-right"><i class="far fa-envelope mr-2"></i><b>E-Mail Address</b></label>
+									<div class="col-md-6">
+										<input type="email" id="email_address" class="form-control border border-dark" name="mail" placeholder="E-Mail ID" required>
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label for="present_address" class="col-md-4 col-form-label text-md-right"><i class="fas fa-home mr-2"></i><b>Present Address</b></label>
+									<div class="col-md-6">
+										<textarea type="text" id="present_address" class="form-control border border-dark" rows="4" name="address" placeholder="Address" required></textarea>
+									</div>
+								</div>
+			
+						
+
+								<div class="form-group row">
+									<label for="user_name" class="col-md-4 col-form-label text-md-right"><i class="fas fa-user mr-2"></i><b>User Name</b></label>
+									<div class="col-md-6">
+										<input type="text" id="user_name" class="form-control border border-dark" name="username" placeholder="Username" required>
+									</div>
+								</div>
+
+
+								<div class="form-group row">
+									<label for="p1" class="col-md-4 col-form-label text-md-right "><i class="fas fa-lock mr-2"></i><b>Password</b></label>
+									<div class="col-md-6">
+										<input id="p1" class="form-control border border-dark" type="password" name="password" placeholder="Password" required>
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label for="p2" class="col-md-4 col-form-label text-md-right"><i class="fas fa-lock mr-2"></i><b>Confirm Password</b></label>
+									<div class="col-md-6">
+										<input id="p2" class="form-control border border-dark" type="password" name="confirmpassword" placeholder="Confirm Password" required>
+									</div>
+								</div>
+
+								<div class="col-md-6 offset-md-4">
+									<button type="submit" class="btn btn-primary"  style="background-color:#292b2c;color:goldenrod" name="register" value="Register">
+										Register
+									</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+</body>
+
+</html>
+
+
